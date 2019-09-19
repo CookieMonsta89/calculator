@@ -1,10 +1,9 @@
 .App {
   width:100%;
   max-width:400px;
-  border:1px solid black;
   margin: 0 auto;
   font-size: 62.5%;
-  background:black;
+  background:#FA8444;
   margin-top:5rem;
   padding:1rem;
   border-radius:1em;
@@ -50,7 +49,7 @@
 
 .row button {
   width:21%;
-  border:1px solid black;
+  border:0px;
   height:75px;
   margin:5px 0;
   font-size: 1.5rem;
@@ -64,36 +63,43 @@
   cursor: pointer;
 }
 
+.row button:focus {
+  outline:none;
+}
+
 .row button:nth-child(1) {
-  background:rgba(220, 220, 220, 0.527)
+  background:white;
+  color:#2170BF
 }
 
 .row button:nth-child(2) {
-  background:rgba(220, 220, 220, 0.527)
+  background:white;
+  color:#2170BF
 }
 
 .row button:nth-child(3) {
-  background:rgba(220, 220, 220, 0.527)
+  background:white;
+  color:#2170BF
 }
 
 .row button:nth-child(4) {
-  background:orange;
+  background:#2170BF;
 }
 
 .row button:nth-child(8) {
-  background:orange;
+  background:#2170BF;
 }
 
 .row button:nth-child(12) {
-  background:orange;
+  background:#2170BF;
 }
 
 .row button:nth-child(16) {
-  background:orange;
+  background:#2170BF;
 }
 
 .row button:nth-last-child(1) {
-  background:orange;
+  background:#2170BF;
 }
 
 .display {
