@@ -5,6 +5,9 @@
   margin: 0 auto;
   font-size: 62.5%;
   background:black;
+  margin-top:5rem;
+  padding:1rem;
+  border-radius:1em;
 }
 
 .App-logo {
@@ -42,23 +45,55 @@
   justify-content: space-around;
   width:100%;
   font-size:12rem;
-  margin:20px 0;
+  flex-wrap:wrap;
 }
 
 .row button {
-  width:20%;
+  width:21%;
   border:1px solid black;
   height:75px;
-  font-size: 2rem;
+  margin:5px 0;
+  font-size: 1.5rem;
   border-radius: 50%;
-  background:#36454f;
-  color:white;
-  
+  background:#36454f79;
+  color:white;  
+}
+
+.row button:hover, .row button:focus {
+  background:rgba(220, 220, 220, 0.527);
+  cursor: pointer;
+}
+
+.row button:nth-child(1) {
+  background:rgba(220, 220, 220, 0.527)
+}
+
+.row button:nth-child(2) {
+  background:rgba(220, 220, 220, 0.527)
+}
+
+.row button:nth-child(3) {
+  background:rgba(220, 220, 220, 0.527)
+}
+
+.row button:nth-child(4) {
+  background:orange;
+}
+
+.row button:nth-child(8) {
+  background:orange;
+}
+
+.row button:nth-child(12) {
+  background:orange;
+}
+
+.row button:nth-child(16) {
+  background:orange;
 }
 
 .row button:nth-last-child(1) {
   background:orange;
-  color:white;
 }
 
 .display {
