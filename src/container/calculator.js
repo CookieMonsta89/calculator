@@ -49,7 +49,7 @@ const mapStateToProps = (state) => (
 )
 
 const mapDispatchToProps = {
-  updateDisplayAction:updateDisplayAction
+  updateDisplayAction:updateDisplayAction,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Calculator);
