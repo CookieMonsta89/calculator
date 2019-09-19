@@ -5,7 +5,7 @@ import Display from '../components/display';
 import { connect } from 'react-redux';
 import { updateDisplayAction } from '../store/actions/index';
 
-class Calculator extends React.Component {
+class calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -52,4 +52,4 @@ const mapDispatchToProps = {
   updateDisplayAction:updateDisplayAction,
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Calculator);
+export default connect(mapStateToProps, mapDispatchToProps)(calculator);
