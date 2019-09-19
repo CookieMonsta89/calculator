@@ -1,7 +1,8 @@
 import React from 'react';
-import {buttons} from '../data/buttonObject';
+import { connect } from 'react-redux'; 
 
 const Button = props => {
+    const { buttons } = props;
     return ( 
         <React.Fragment>
             {buttons.map((button, idx) => {
@@ -14,5 +15,11 @@ const Button = props => {
         </React.Fragment>
      );
 }
+
+const mapStateToProps = (state) => (
+    {
+      buttons:state.buttons
+    }  
+)
  
-export default Button
+export default connect(mapStateToProps)(Button);
