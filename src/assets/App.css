@@ -72,9 +72,17 @@
   color:#2170BF
 }
 
+.row button:nth-child(1):hover {
+  color:#FA8444;
+}
+
 .row button:nth-child(2) {
   background:white;
   color:#2170BF
+}
+
+.row button:nth-child(2):hover {
+  color:#FA8444;
 }
 
 .row button:nth-child(3) {
@@ -82,24 +90,48 @@
   color:#2170BF
 }
 
+.row button:nth-child(3):hover {
+  color:#FA8444;
+}
+
 .row button:nth-child(4) {
   background:#2170BF;
+}
+
+.row button:nth-child(4):hover {
+  color:#FA8444;
 }
 
 .row button:nth-child(8) {
   background:#2170BF;
 }
 
+.row button:nth-child(8):hover {
+  color:#FA8444;
+}
+
 .row button:nth-child(12) {
   background:#2170BF;
+}
+
+.row button:nth-child(12):hover {
+  color:#FA8444;
 }
 
 .row button:nth-child(16) {
   background:#2170BF;
 }
 
+.row button:nth-child(16):hover {
+  color:#FA8444;
+}
+
 .row button:nth-last-child(1) {
   background:#2170BF;
+}
+
+.row button:nth-last-child(1):hover {
+  color:#FA8444;
 }
 
 .display {
